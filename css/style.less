@@ -1,0 +1,278 @@
+/* Color variables */
+@text-color: #9a9a9a;
+@white-color: #ffffff;
+@fontAndButton-color: orange;
+@hoverFonts-color: darkorange;
+
+/*John and Jane Doe image style*/
+.imagesStyle() {
+  position: relative;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+//Style of work-version divs
+.workVersion {
+  width: 100%;
+  height: 200px;
+  border-bottom: solid 1px darkred;
+  text-align: center;
+  font-size: 50px;
+}
+
+//New jumbotron properties
+.jumbotronClear {
+  background: transparent;
+  text-align: justify;
+}
+
+//Class from html div work vewrsion - This is will be delete when project been completed
+.work-version {
+  .workVersion;
+}
+
+#header {
+  background-color: white;
+  .container .row .col-lg-12 .navbar{
+    padding: 0px;
+    margin:auto;
+    a {
+      padding: 0px;
+      img {
+        margin-top: 13px;
+        transform: rotateX(50deg);
+        -webkit-filter: opacity(0.2) drop-shadow(0 0 0 red);
+        filter: opacity(0.2) drop-shadow(0 0 0 red);
+      }
+      h5 {
+        margin-top: -10px;
+        color:@fontAndButton-color;
+        margin-bottom: 5px;
+      }
+    }
+    .navbar-nav .nav-item .nav-link {
+      color: grey;
+      font-family: Arial, sans-serif;
+      &:hover {
+        color:@fontAndButton-color;
+      }
+    }
+
+    .navbar-collapse ul li{
+      padding-right: 40px;
+    }
+  }
+}
+
+/*Stylizing second div */
+#id2 {
+  padding: 0px;
+  .row .col-lg-12 .carousel .carousel-inner {
+    max-height: 800px;
+    width: 100%;
+  }
+}
+
+/*Stylizing thrid div */
+#id3 {
+  background: #333333;
+
+  .list-style {
+    list-style: none;
+    li {
+      float: right;
+    }
+  }
+
+  .container .row .col-lg-12 {
+    .jumbotron {
+      padding-top: 10px;
+      padding-bottom: 15px;
+      margin: 0px;
+      background: transparent;
+    }
+  }
+}
+
+/*Stylizing fourth div */
+#id4 .container .row .col-lg-4 {
+  .jumbotron {
+    background: transparent;
+    padding-left: 50px;
+    .card {
+      border: none;
+      .card-body .btn {
+
+        background-color: @fontAndButton-color;
+      }
+    }
+  }
+}
+
+/*Stylizing fifth div */
+#id5 {
+  background-color: rgba(27, 190, 255, 0.13);
+
+  .container .row .jumbotron {
+    background-color: transparent;
+    .col-xl-12 h1  {
+      margin-bottom: 30px;
+      color: rgba(72, 72, 72, 0.73);
+    }
+    p  {
+      color: rgba(72, 72, 72, 0.77);
+      font-size: 12pt;
+      font-style: normal;
+      letter-spacing: normal;
+    }
+  }
+}
+
+/*Stylizing sixth div */
+#id6 .container {
+
+  #r1, #r2, #r3 {
+    padding: 40px;
+  }
+  #r1 .col-xl-12 h1 {
+    font-size: 30pt;
+    color: rgba(72, 72, 72, 0.73);
+  }
+  #r2 .col-xl-3 .john-doe {
+    .imagesStyle();
+    object-position: 80% 0;
+  }
+  #r3 .col-xl-3 .jane-doe {
+    .imagesStyle();
+    object-position: 0 80%;
+  }
+  .row .col-xl-9{
+    h1 {
+      color: rgba(68, 138, 255, 0.82);
+      font-size: 22pt;
+    }
+    h2 {
+      color: @fontAndButton-color;
+      font-size: 18pt;
+    }
+    p {
+      color: rgba(72, 72, 72, 0.77);
+      font-size: 12pt;
+      font-style: normal;
+      letter-spacing: normal;
+    }
+  }
+}
+
+#id7 {
+  background: url("../img/img1.png") no-repeat center fixed;
+  background-size: cover;
+  height: 650px;
+  width: auto;
+}
+
+#id7 .container .row .col-lg-7 .jumbotron {
+  background: transparent;
+  padding-bottom: 0px;
+  color: @white-color;
+}
+
+#id7 .container .row .col-lg-5 .jumbotron {
+  background: transparent;
+  color: @white-color;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#id7 .container .row .col-lg-7 {
+  .jumbotron {
+    background: transparent;
+    .btn {
+      background-color: orange;
+      border-radius: 25px;
+      padding: 5px 35px 5px 35px;
+      font-weight: bold;
+      color: white;
+      &:hover {
+        background-color: darkorange;
+      }
+    }
+  }
+}
+/*Stylizing eight div */
+#id8 .container .row .col-lg-12 .jumbotron {
+  .jumbotronClear;
+  color: @text-color;
+}
+
+/*Stylizing nineth div : row 1*/
+#id9 .row #fid1 {
+  background: orange;
+  height: 80px;
+}
+
+/*Stylizing nineth div : row 2*/
+#id9 .row #fid2 {
+  background: #333333;
+  height: 100%;
+
+  .container .jumbotron {
+    color: white;
+    background: transparent;
+    padding-top: 20px;
+    text-decoration: none;
+
+    .row ul li a {
+      color: white;
+      text-decoration: none;
+      &:hover {
+        color: orange;
+      }
+    }
+    .row ul li a img {
+      &:hover {
+        -webkit-filter: opacity(0.2) drop-shadow(0 0 0 red);
+        filter: opacity(0.2) drop-shadow(0 0 0 red);
+      }
+    }
+    .row .col-lg-2 a span {
+      font-size: 30px;
+      bottom: 20px;
+      color:@fontAndButton-color;
+      position: relative;
+      font-family: Calibri;
+    }
+
+    #logo {
+      transform: rotateX(30deg);
+      -webkit-filter: opacity(0.2) drop-shadow(0 0 0 red);
+      filter: opacity(0.2) drop-shadow(0 0 0 red);
+
+    }
+
+  }
+
+}
+
+/*Stylizing nineth div : row 3*/
+#id9 .row #fid3 {
+  background: black;
+  height: 50px;
+
+  .container .jumbotron {
+    color: white;
+    background: transparent;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-family: Arial;
+    color: rgba(250, 250, 250, 0.5);
+  }
+}
+
+
+
+
+

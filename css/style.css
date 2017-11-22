@@ -1,0 +1,233 @@
+/* Color variables */
+/*John and Jane Doe image style*/
+.workVersion {
+  width: 100%;
+  height: 200px;
+  border-bottom: solid 1px darkred;
+  text-align: center;
+  font-size: 50px;
+}
+.jumbotronClear {
+  background: transparent;
+  text-align: justify;
+}
+.work-version {
+  width: 100%;
+  height: 200px;
+  border-bottom: solid 1px darkred;
+  text-align: center;
+  font-size: 50px;
+}
+#header {
+  background-color: white;
+}
+#header .container .row .col-lg-12 .navbar {
+  padding: 0px;
+  margin: auto;
+}
+#header .container .row .col-lg-12 .navbar a {
+  padding: 0px;
+}
+#header .container .row .col-lg-12 .navbar a img {
+  margin-top: 13px;
+  transform: rotateX(50deg);
+  -webkit-filter: opacity(0.2) drop-shadow(0 0 0 red);
+  filter: opacity(0.2) drop-shadow(0 0 0 red);
+}
+#header .container .row .col-lg-12 .navbar a h5 {
+  margin-top: -10px;
+  color: orange;
+  margin-bottom: 5px;
+}
+#header .container .row .col-lg-12 .navbar .navbar-nav .nav-item .nav-link {
+  color: grey;
+  font-family: Arial, sans-serif;
+}
+#header .container .row .col-lg-12 .navbar .navbar-nav .nav-item .nav-link:hover {
+  color: orange;
+}
+#header .container .row .col-lg-12 .navbar .navbar-collapse ul li {
+  padding-right: 40px;
+}
+/*Stylizing second div */
+#id2 {
+  padding: 0px;
+}
+#id2 .row .col-lg-12 .carousel .carousel-inner {
+  max-height: 800px;
+  width: 100%;
+}
+/*Stylizing thrid div */
+#id3 {
+  background: #333333;
+}
+#id3 .list-style {
+  list-style: none;
+}
+#id3 .list-style li {
+  float: right;
+}
+#id3 .container .row .col-lg-12 .jumbotron {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin: 0px;
+  background: transparent;
+}
+/*Stylizing fourth div */
+#id4 .container .row .col-lg-4 .jumbotron {
+  background: transparent;
+  padding-left: 50px;
+}
+#id4 .container .row .col-lg-4 .jumbotron .card {
+  border: none;
+}
+#id4 .container .row .col-lg-4 .jumbotron .card .card-body .btn {
+  background-color: orange;
+}
+/*Stylizing fifth div */
+#id5 {
+  background-color: rgba(27, 190, 255, 0.13);
+}
+#id5 .container .row .jumbotron {
+  background-color: transparent;
+}
+#id5 .container .row .jumbotron .col-xl-12 h1 {
+  margin-bottom: 30px;
+  color: rgba(72, 72, 72, 0.73);
+}
+#id5 .container .row .jumbotron p {
+  color: rgba(72, 72, 72, 0.77);
+  font-size: 12pt;
+  font-style: normal;
+  letter-spacing: normal;
+}
+/*Stylizing sixth div */
+#id6 .container #r1,
+#id6 .container #r2,
+#id6 .container #r3 {
+  padding: 40px;
+}
+#id6 .container #r1 .col-xl-12 h1 {
+  font-size: 30pt;
+  color: rgba(72, 72, 72, 0.73);
+}
+#id6 .container #r2 .col-xl-3 .john-doe {
+  position: relative;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 80% 0;
+}
+#id6 .container #r3 .col-xl-3 .jane-doe {
+  position: relative;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0 80%;
+}
+#id6 .container .row .col-xl-9 h1 {
+  color: rgba(68, 138, 255, 0.82);
+  font-size: 22pt;
+}
+#id6 .container .row .col-xl-9 h2 {
+  color: orange;
+  font-size: 18pt;
+}
+#id6 .container .row .col-xl-9 p {
+  color: rgba(72, 72, 72, 0.77);
+  font-size: 12pt;
+  font-style: normal;
+  letter-spacing: normal;
+}
+#id7 {
+  background: url("../img/img1.png") no-repeat center fixed;
+  background-size: cover;
+  height: 650px;
+  width: auto;
+}
+#id7 .container .row .col-lg-7 .jumbotron {
+  background: transparent;
+  padding-bottom: 0px;
+  color: #ffffff;
+}
+#id7 .container .row .col-lg-5 .jumbotron {
+  background: transparent;
+  color: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#id7 .container .row .col-lg-7 .jumbotron {
+  background: transparent;
+}
+#id7 .container .row .col-lg-7 .jumbotron .btn {
+  background-color: orange;
+  border-radius: 25px;
+  padding: 5px 35px 5px 35px;
+  font-weight: bold;
+  color: white;
+}
+#id7 .container .row .col-lg-7 .jumbotron .btn:hover {
+  background-color: darkorange;
+}
+/*Stylizing eight div */
+#id8 .container .row .col-lg-12 .jumbotron {
+  background: transparent;
+  text-align: justify;
+  color: #9a9a9a;
+}
+/*Stylizing nineth div : row 1*/
+#id9 .row #fid1 {
+  background: orange;
+  height: 80px;
+}
+/*Stylizing nineth div : row 2*/
+#id9 .row #fid2 {
+  background: #333333;
+  height: 100%;
+}
+#id9 .row #fid2 .container .jumbotron {
+  color: white;
+  background: transparent;
+  padding-top: 20px;
+  text-decoration: none;
+}
+#id9 .row #fid2 .container .jumbotron .row ul li a {
+  color: white;
+  text-decoration: none;
+}
+#id9 .row #fid2 .container .jumbotron .row ul li a:hover {
+  color: orange;
+}
+#id9 .row #fid2 .container .jumbotron .row ul li a img:hover {
+  -webkit-filter: opacity(0.2) drop-shadow(0 0 0 red);
+  filter: opacity(0.2) drop-shadow(0 0 0 red);
+}
+#id9 .row #fid2 .container .jumbotron .row .col-lg-2 a span {
+  font-size: 30px;
+  bottom: 20px;
+  color: orange;
+  position: relative;
+  font-family: Calibri;
+}
+#id9 .row #fid2 .container .jumbotron #logo {
+  transform: rotateX(30deg);
+  -webkit-filter: opacity(0.2) drop-shadow(0 0 0 red);
+  filter: opacity(0.2) drop-shadow(0 0 0 red);
+}
+/*Stylizing nineth div : row 3*/
+#id9 .row #fid3 {
+  background: black;
+  height: 50px;
+}
+#id9 .row #fid3 .container .jumbotron {
+  color: white;
+  background: transparent;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-family: Arial;
+  color: rgba(250, 250, 250, 0.5);
+}
