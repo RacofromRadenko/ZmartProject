@@ -36,9 +36,9 @@
 
 #header {
   background-color: white;
-  .container .row .col-lg-12 .navbar{
+  .container .row .col-lg-12 .navbar {
     padding: 0px;
-    margin:auto;
+    margin: auto;
     a {
       padding: 0px;
       img {
@@ -49,7 +49,7 @@
       }
       h5 {
         margin-top: -10px;
-        color:@fontAndButton-color;
+        color: @fontAndButton-color;
         margin-bottom: 5px;
       }
     }
@@ -57,11 +57,11 @@
       color: grey;
       font-family: Arial, sans-serif;
       &:hover {
-        color:@fontAndButton-color;
+        color: @fontAndButton-color;
       }
     }
 
-    .navbar-collapse ul li{
+    .navbar-collapse ul li {
       padding-right: 40px;
     }
   }
@@ -69,10 +69,13 @@
 
 /*Stylizing second div */
 #id2 {
-  padding: 0px;
-  .row .col-lg-12 .carousel .carousel-inner {
-    max-height: 800px;
-    width: 100%;
+
+  .row .col-lg-12 {
+    padding: 0px;
+    .carousel .carousel-inner {
+      max-height: 800px;
+      width: 100%;
+    }
   }
 }
 
@@ -118,11 +121,11 @@
 
   .container .row .jumbotron {
     background-color: transparent;
-    .col-xl-12 h1  {
+    .col-xl-12 h1 {
       margin-bottom: 30px;
       color: rgba(72, 72, 72, 0.73);
     }
-    p  {
+    p {
       color: rgba(72, 72, 72, 0.77);
       font-size: 12pt;
       font-style: normal;
@@ -149,7 +152,7 @@
     .imagesStyle();
     object-position: 0 80%;
   }
-  .row .col-xl-9{
+  .row .col-xl-9 {
     h1 {
       color: rgba(68, 138, 255, 0.82);
       font-size: 22pt;
@@ -172,36 +175,25 @@
   background-size: cover;
   height: 650px;
   width: auto;
-}
-
-#id7 .container .row .col-lg-7 .jumbotron {
-  background: transparent;
-  padding-bottom: 0px;
-  color: @white-color;
-}
-
-#id7 .container .row .col-lg-5 .jumbotron {
-  background: transparent;
-  color: @white-color;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-#id7 .container .row .col-lg-7 {
-  .jumbotron {
-    background: transparent;
-    .btn {
-      background-color: orange;
-      border-radius: 25px;
-      padding: 5px 35px 5px 35px;
-      font-weight: bold;
+  .container .row .col-lg-7 {
+    .jumbotron {
+      background: transparent;
       color: white;
-      &:hover {
-        background-color: darkorange;
+      .btn {
+        background-color: orange;
+        border-radius: 25px;
+        padding: 5px 35px 5px 35px;
+        font-weight: bold;
+        color: white;
+        &:hover {
+          background-color: darkorange;
+        }
       }
     }
   }
+
 }
+
 /*Stylizing eight div */
 #id8 .container .row .col-lg-12 .jumbotron {
   .jumbotronClear;
@@ -241,7 +233,7 @@
     .row .col-lg-2 a span {
       font-size: 30px;
       bottom: 20px;
-      color:@fontAndButton-color;
+      color: @fontAndButton-color;
       position: relative;
       font-family: Calibri;
     }
